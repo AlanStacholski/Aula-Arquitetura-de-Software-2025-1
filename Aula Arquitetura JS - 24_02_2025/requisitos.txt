@@ -1,0 +1,6 @@
+Requisitos Funcionais:
+    GET /posts - Lista de Posts;
+        Este endpoint permitirá que os(as) estudantes visualizem uma lista de todos os posts disponiveis na página principal;
+    GET /posts/:id - leitura de Posts;
+    POST/posts - Criação de Postagens;
+    PUT/posts/:id - Edição de Postagens;
