@@ -46,5 +46,12 @@ export class PostService {
         }
         return updatePost;
     }
-
+    
+    deletePost = async (id) => {
+        const deletePost = await this.postRepository.delete(id);
+        if (!deletePost) {
+            throw new Error("Post não encontrado!");
+        }
+        return this.deletePostost;
+    }
 }
